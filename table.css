@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+table, th, td {
+border-collapse: collapse;
+margin: auto;
+border: 2px solid black;
+width: 40%;
+font-weight: bold;
+text-align: start;
+}
+th, td {
+    padding: 3% 3%;
+}
+th {
+    font-family: 'Halent', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+td{
+    font-family: 'Manrope', sans-serif;
+}
+h1 {
+    font-family: 'Halant', serif;
+}

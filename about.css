@@ -1,0 +1,42 @@
+.one {
+    text-align: center;
+}
+
+.two {
+    text-align: center;
+}
+
+.three {
+    text-align: center;
+}
+
+.four {
+    text-align: center;
+}
+
+.five {
+    text-align: center;
+    width: 37%;
+    margin: 0 auto;
+}
+
+hr {
+    margin-right: 21%;
+    margin-left: 21%;
+
+}
+.six {
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    padding: 1rem; 
+    line-height: 100%;
+    border-color: blue;
+    border-radius: 2rem;
+    background-color: blue;
+    color: aliceblue;
+    cursor:pointer;
+    }
+    
