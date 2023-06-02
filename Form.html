@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="shortcut icon" href="./favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./Form.css">
+</head>
+
+<body>
+    <main>
+        <h1>Contact Form</h1>
+
+        <form>
+            <div>
+                <label for="Name" class="label-fw">Name:</label>
+                <input type="text" class="input-fw" placeholder="Enter your Name" required>
+            </div>
+
+            <div>
+                <label for="Username" class="label-fw">Username</label>
+                <input type="text" class="input-fw" name="Usernam" id="Username"  placeholder="Enter your Username"
+                    required>
+            </div>
+
+            <div>
+                <label for="password" class="label-fw">password:</label>
+                <input type="password" class="input-fw" placeholder="Enter your password" name="" id="password" required>
+            </div>
+            <div>
+                <label for="" class="label-fw">Re-type password:</label>
+                <input type="password" class="input-fw" placeholder="Enter your password" name="password" id="password" required>
+            </div>
+
+            <div>
+                <label for="gender" class="label-fw" aria-required="false">Gender:</label >
+                <input type="radio" class="label-ra" name="Gender" id="male" required>Male
+
+                <input type= "radio" class="label-ra" name="Gender" id="female" required>Female
+            </div>
+
+            <div>
+                <label for="Techie Skills" class="label-fw" >Techie Skills:</label required>
+                <input type="checkbox" class="label-ra" name="" id="HTML" required>HTML</input>
+                <input type="checkbox" class="lable-ra" name="" id="CSS" required>CSS</input>
+                <input type="checkbox" class="lable-ra" name="" id="Javascript" required>Javascript</input>
+            </div>
+
+            <div>
+                <label for="tel" class="label-fw">Phone Number:</label>
+                <input type="tel" class="input-fw" name="phone number" id="phone number"  placeholder="Enter your Address"
+                    required>
+            </div>
+
+            <div>
+                <label for="email" class="label-fw">Email:</label>
+                <input type="email"class="input-fw" name="Email" id="Email"  placeholder="Enter your Email address" required>
+            </div>
+
+            <div>
+                <label for="select" class="label-fw">College:</label>
+                <select required class="input-fw" >
+                    <option value="" disabled selected>Select a College</option>
+                </select>
+            </div>
+
+            <button>submit </button>
+
+
+        </form>
+    </main>
+</body>
+
+</html>
